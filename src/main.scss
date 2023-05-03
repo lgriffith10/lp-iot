@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  @apply bg-gray-100 min-h-screen;
+}
+
+.title {
+  @apply text-blue-400 font-bold text-[35px] leading-[40px];
+
+  &--sm {
+    @apply text-[24px];
+  }
+
+  &--medium {
+    @apply font-medium;
+  }
+}
